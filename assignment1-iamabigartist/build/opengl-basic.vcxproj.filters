@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\15480\Documents\CGProjects\cs171-hw1-iamabigartist\Coding\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\15480\Documents\CGProjects\cs171-hw1-iamabigartist\Coding\CmakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6F5F21F4-3492-3EA6-93A9-F435CBBAA7C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{92c26a0e-69a6-42f3-85fc-a55f526cadf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj">
+      <UniqueIdentifier>{20f00b29-aba1-4613-9f44-b20ad1c430d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Camera.h" />
+    <ClInclude Include="include\MTime.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\fragment1.frag">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\vertex1.vert">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="obj\bunny_simlified.object">
+      <Filter>obj</Filter>
+    </None>
+    <None Include="obj\fourface.object">
+      <Filter>obj</Filter>
+    </None>
+    <None Include="obj\pumpkin_simlified.object">
+      <Filter>obj</Filter>
+    </None>
+  </ItemGroup>
+</Project>

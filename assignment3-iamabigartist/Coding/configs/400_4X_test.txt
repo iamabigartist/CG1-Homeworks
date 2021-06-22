@@ -1,0 +1,7 @@
+output_resolution   1024
+output_file         output11_final.png
+camera_id           1
+light_id            1
+num_samples         5
+area_light_resolution  60
+num_threads    12
